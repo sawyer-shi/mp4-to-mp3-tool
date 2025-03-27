@@ -1,0 +1,12 @@
+name: mp4_to_mp3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip=21.3.1
+  - ffmpeg
+  - pip:
+    - gradio>=3.32.0
+    - numpy>=1.22.0
+    - Pillow>=9.0.0 
